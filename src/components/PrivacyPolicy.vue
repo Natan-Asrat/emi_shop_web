@@ -3,7 +3,7 @@
         <h1>Privacy Policy</h1>
     <p>Last updated: May 18, 2024</p>
     <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
-    <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">Privacy Policy Generator</a>.</p>
+    <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
     <h2>Interpretation and Definitions</h2>
     <h3>Interpretation</h3>
     <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
@@ -14,13 +14,10 @@
     <p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
     </li>
     <li>
-    <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
-    </li>
-    <li>
     <p><strong>Application</strong> refers to Emi Shop, the software program provided by the Company.</p>
     </li>
     <li>
-    <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Emi Shop.</p>
+    <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Emica Solutions.</p>
     </li>
     <li>
     <p><strong>Country</strong> refers to:  Ethiopia</p>
@@ -58,9 +55,8 @@
     </ul>
     <h4>Usage Data</h4>
     <p>Usage Data is collected automatically when using the Service.</p>
-    <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-    <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
-    <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
+    <p>Usage Data may include information such as likes, follows, profile visits and other interaction with the application.</p>
+    <p>When You access the Service by or through a mobile device, We collect your phone number when you log in.</p>
     <h3>Use of Your Personal Data</h3>
     <p>The Company may use Personal Data for the following purposes:</p>
     <ul>
