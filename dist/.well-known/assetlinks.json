@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.emicasolutions.emishopapp",
+      "sha256_cert_fingerprints": [
+        "014457c45a72a83194f6c8e5ea93f6afbcb6fe11d25d6c52951df2baeb6802a3",
+        "CC:0E:C4:8B:B4:5E:2E:56:07:23:EE:B2:A4:DC:16:97:4A:34:C1:F2:1F:98:87:F0:0C:D6:1A:5A:DE:DE:FD:15"
+      ]
+    }
+  }
+]

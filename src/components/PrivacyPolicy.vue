@@ -136,6 +136,8 @@
     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
     <ul>
     <li>By phone number: +251908560168</li>
+    <li>Telegram Support: <a href="https://t.me/emi_shop_support">https://t.me/emi_shop_support</a></li>
+    <li>Email: emicasolutions@gmail.com</li>
     </ul>
     </div>
     
