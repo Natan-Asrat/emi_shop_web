@@ -9,13 +9,19 @@ import RequestDeletePost from './components/RequestDeletePost.vue'
 
 import DeleteAccount from './components/DeleteAccount.vue'
 import DeletePost from './components/DeletePost.vue'
+import ContactUS from './components/ContactUs.vue'
+import Posts from './components/Posts.vue'
+import Post from './components/Post.vue'
 
 const routes = [
   {path: '/privacypolicy', component: PrivacyPolicy},
   {path: '/requestdeleteaccount', component: RequestDeleteAccount},
   {path: '/requestdeletepost', component: RequestDeletePost},
   {path: '/deleteaccount', component: DeleteAccount},
-  {path: '/deletepost', component: DeletePost}
+  {path: '/deletepost', component: DeletePost},
+  {path: '/contact', component: ContactUS},
+  {path: '/posts', component: Posts},
+  {path: '/post', component: Post}
 ]
 const router = createRouter({
   history: createWebHistory(),

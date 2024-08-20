@@ -2,12 +2,98 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="icon" type="image/svg+xml" href="/emi_logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emi Shop</title>
   </head>
   <body>
+    <!-- <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/emi_logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Emi Shop
+        </a>
+        
+      </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/emi_logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Emi Shop
+        </a>    
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+         
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/posts">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/contact">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a class="navbar-brand" href="#">
+              <img src="/emi_logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
     <div id="app"></div>
+    <script>
+      sp = document.getElementById("sponsors")
+      // for ( i=0; i<5; i++){
+      //   sp.innerHTML = "Hi"
+      // }
+    </script>
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src = "/emi_logo_gray.png" width="24" height="24" >
+          <small class="d-block mb-3 text-body-secondary">Dedicated to: <b>Amicable Alemayehu</b></small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Unlimited Posts</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">No Expiry</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Shareable Link</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Notify on post interactions</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">View Analytics</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Boost your ads</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="/posts">Posts</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Categories</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Packages</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Ads</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
+    <script src="/bootstrap.bundle.min.js"></script>
+
   </body>
 </html>
