@@ -12,6 +12,7 @@ import DeletePost from './components/DeletePost.vue'
 import ContactUS from './components/ContactUs.vue'
 import Posts from './components/Posts.vue'
 import Post from './components/Post.vue'
+import Home from './components/Home.vue'
 
 const routes = [
   {path: '/privacypolicy', component: PrivacyPolicy},
@@ -21,7 +22,8 @@ const routes = [
   {path: '/deletepost', component: DeletePost},
   {path: '/contact', component: ContactUS},
   {path: '/posts', component: Posts},
-  {path: '/post', component: Post}
+  {path: '/post', component: Post},
+  {path: '/', component: Home}
 ]
 const router = createRouter({
   history: createWebHistory(),
