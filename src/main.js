@@ -13,6 +13,7 @@ import ContactUS from './components/ContactUs.vue'
 import Posts from './components/Posts.vue'
 import Post from './components/Post.vue'
 import Home from './components/Home.vue'
+import Categories from './components/Categories.vue'
 
 const routes = [
   {path: '/privacypolicy', component: PrivacyPolicy},
@@ -21,8 +22,9 @@ const routes = [
   {path: '/deleteaccount', component: DeleteAccount},
   {path: '/deletepost', component: DeletePost},
   {path: '/contact', component: ContactUS},
-  {path: '/posts', component: Posts},
-  {path: '/post', component: Post},
+  { path: '/posts/:categoryId?', component: Posts, name: 'posts' }, // Make categoryId optional
+  { path: '/post', component: Post },
+  {path: '/categories', component: Categories},
   {path: '/', component: Home}
 ]
 const router = createRouter({
