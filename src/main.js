@@ -16,6 +16,10 @@ import Home from './components/Home.vue'
 import Categories from './components/Categories.vue'
 import Packages from './components/Packages.vue'
 
+
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 const routes = [
   {path: '/privacypolicy', component: PrivacyPolicy},
   {path: '/requestdeleteaccount', component: RequestDeleteAccount},
