@@ -5,9 +5,15 @@
       <div class="col-md-6 d-flex flex-column justify-content-center">
         <h1 class="display-4">Emi Shop</h1>
         <p class="lead">Discover, shop, and connect with Emi Shop! Our app combines the best of social media with the convenience of online shopping, creating a unique and engaging shopping experience.</p>
-        <a href="https://play.google.com/store/apps/details?id=com.emicasolutions.emishopapp" target="_blank">
+        <a class="d-none" href="https://play.google.com/store/apps/details?id=com.emicasolutions.emishopapp" target="_blank">
           <img src="/play.png" alt="Download on Play Store" class="img-fluid mt-3" style="max-width: 50%;"/>
         </a>
+        <a href="/emishopapp.apk" target="_blank" download onclick="showFallback('viewer')">
+          <img src="/download_apk.png" alt="Download APK" class="img-fluid mt-3" style="max-width: 50%;" />
+        </a>
+        <p id="fallback-viewer" class="fallback-message" style="display: none;">
+          If the download doesn't start, <a href="/emishopapp.apk" target="_blank">click here</a> to download Location Viewer.
+        </p>
       </div>
 
       <!-- Screenshots Section (Right Column) -->
