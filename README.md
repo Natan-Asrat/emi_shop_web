@@ -1,7 +1,18 @@
-# Vue 3 + Vite
+# Emi Shop
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Discover, shop, and connect with Emi Shop! Our app combines the best of social media with the convenience of online shopping, creating a unique and engaging shopping experience.
 
-## Recommended IDE Setup
+View Live Site [here](https://emishopapp.onrender.com/)
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+![emishop_landing](./emishop_landing.jpg)
+![emishop_posts](./emishop_posts.jpg)
+![emishop_categories](./emishop_categories.jpg)
+![emishop_packages](./emishop_packages.jpg)
+
+# Logo Design
+ - Telegram Link: [Click here](https://t.me/valorelm)
+ - Telegram Username: @valorelm 
+ 
+![logo](./logo.png)
+
+
