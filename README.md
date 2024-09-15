@@ -12,7 +12,14 @@ View Live Site [here](https://emishopapp.onrender.com/)
 # Logo Design
  - Telegram Link: [Click here](https://t.me/valorelm)
  - Telegram Username: @valorelm 
- 
+
 ![logo](./logo.png)
 
+
+
+## Contact
+ - LinkedIn: [Natan Asrat](https://linkedin.com/in/natan-asrat)
+ - Gmail: nathanyilmaasrat@gmail.com
+ - Telegram: [Natan Asrat](https://t.me/fail_your_way_to_success)
+ - Youtube: [Natville](https://www.youtube.com/@natvilletutor)
 
