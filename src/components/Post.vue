@@ -95,7 +95,7 @@ export default {
     async fetchPostData() {
       const postId = this.$route.query.p;
       try {
-        const response = await axios.get(BASE_URL + '/posts_anonymous/' + postId);
+        const response = await axios.get(BASE_URL + '/posts_anonymous/' + postId + '/');
         this.postData = response.data;
       } catch (error) {
         console.error('Error fetching post data:', error);
