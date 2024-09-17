@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://jgj62yd.localto.net/app';
+export const BASE_URL = 'https://jgj62yd.localto.net/app/';
