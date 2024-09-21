@@ -1,5 +1,13 @@
 <template>
   <div class="container mt-3">
+    <div class="mx-auto mb-3">
+      <a href="/emishopapp.apk" target="_blank" download onclick="showFallback('viewer')">
+          <img src="/download_apk.png" alt="Download APK" class="img-fluid mt-3" style="max-width: 50%;" />
+        </a>
+      <p id="fallback-viewer" class="fallback-message" style="display: none;">
+          If the download doesn't start, <a href="/emishopapp.apk" target="_blank">click here</a> to download Location Viewer.
+        </p>
+    </div>
     <div class="image-container-background" :style="{ backgroundColor: imgLoaded ? 'transparent' : '#e0e0e0' }">
     <div class="row justify-content-center">
       <div 
@@ -95,7 +103,7 @@ export default {
     async fetchPostData() {
       const postId = this.$route.query.p;
       try {
-        const response = await axios.get(BASE_URL + '/posts_anonymous/' + postId);
+        const response = await axios.get(BASE_URL + '/posts_anonymous/' + postId + '/');
         this.postData = response.data;
       } catch (error) {
         console.error('Error fetching post data:', error);
@@ -142,8 +150,8 @@ export default {
         console.error('Error initiating call:', error);
         // Optionally handle the error, e.g., display a message
     }
-},
-
+}
+,
 
     isAppInstalled(appPackage) {
       return new Promise((resolve, reject) => {
