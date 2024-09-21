@@ -45,7 +45,7 @@
       <div class="card-body d-flex align-items-center">
         <img :src="postData.sellerId.profilePicture" class="rounded-circle" alt="Profile" style="width: 60px; height: 60px; margin-right: 16px;">
         <div>
-          <p class="mb-0">{{ postData.sellerId.username }}</p>
+          <p class="mb-0">{{ postData.sellerId.brandName }}</p>
           <small class="text-muted">{{ getLastSeenText(postData.sellerId.last_seen) }}</small>
         </div>
         <button class="btn btn-link ms-auto p-0">
@@ -79,7 +79,7 @@ export default {
         hasDiscount: false,
         sellerId: {
           profilePicture: '',
-          username: 'Loading...',
+          brandName: 'Loading...',
           last_seen: 'Loading...',
           phoneNumber: ''
         },
@@ -133,24 +133,17 @@ export default {
       return 'Last seen a long time ago';
     },
     async handleCallButtonClick() {
-      const appPackage = 'com.emicasolutions.emishopapp';
-      const phoneNumber = this.postData.sellerId.phoneNumber;
+    const phoneNumber = this.postData.sellerId.phoneNumber;
 
-      try {
-        const isInstalled = await this.isAppInstalled(appPackage);
+    try {
+        // Directly open the phone app with the number to call
+        window.location.href = `tel:${phoneNumber}`;
+    } catch (error) {
+        console.error('Error initiating call:', error);
+        // Optionally handle the error, e.g., display a message
+    }
+},
 
-        if (isInstalled) {
-          // Open the phone app with the number to call
-          window.location.href = `tel:${phoneNumber}`;
-        } else {
-          // Redirect to the Play Store
-          window.location.href = `https://play.google.com/store/apps/details?id=${appPackage}`;
-        }
-      } catch (error) {
-        console.error('Error checking if app is installed:', error);
-        // Optionally handle the error, e.g., fallback action
-      }
-    },
 
     isAppInstalled(appPackage) {
       return new Promise((resolve, reject) => {
